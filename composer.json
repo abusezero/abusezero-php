@@ -1,0 +1,33 @@
+{
+    "name": "abusezero/abusezero-php",
+    "description": "The official AbuseZero PHP SDK: abuse prevention API for SaaS.",
+    "type": "library",
+    "license": "proprietary",
+    "keywords": [
+        "abusezero",
+        "abuse prevention",
+        "trial abuse",
+        "sdk"
+    ],
+    "homepage": "https://abusezero.com",
+    "authors": [
+        {
+            "name": "AbuseZero",
+            "homepage": "https://abusezero.com"
+        }
+    ],
+    "support": {
+        "docs": "https://docs.abusezero.com/docs/tools/php-sdk"
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-curl": "*",
+        "ext-hash": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbuseZero\\": "src/"
+        }
+    }
+}

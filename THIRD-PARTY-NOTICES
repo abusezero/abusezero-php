@@ -1,0 +1,1 @@
+This package uses PHP and its cURL, JSON and hash extensions. No third-party runtime source is bundled. See the licenses that come with your PHP distribution.
